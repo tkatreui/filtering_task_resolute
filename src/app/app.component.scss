@@ -1,0 +1,65 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .main-body{
+    max-width: 1248px;
+    padding-top: 20px;
+    margin: 0 auto;
+    mat-form-field{
+        width: 100%;
+    }
+  }
+
+  .mat-toolbar-single-row {
+    span,button {
+      font-size: 8px;
+      @media screen and (min-width:768px) {
+       font-size: 20px; 
+      }
+    }
+  }
+  .mat-column-dob,
+  .mat-column-designation,
+  .mat-column-education,
+  .mat-column-experience,
+  .mat-column-gender,
+  .mat-column-company {
+    display: none;
+    @media screen and (min-width:991px) {
+      display: table-cell;
+     }
+  }
+
+th.mat-sort-header {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  @media screen and (min-width:991px) {
+    font-size: 18px;
+   }
+}
+td.mat-mdc-cell {
+  font-size: 9px;
+  padding-left: 0;
+  @media screen and (min-width:991px) {
+    font-size: 20px;
+   }
+}
+button.mdc-icon-button {
+  padding: 0;
+  width: 15px;
+  height: 15px; 
+  @media screen and (min-width:991px) {
+    width: auto;
+    height: auto; 
+   }
+}
+
+
+.mat-sort-header-arrow {
+  display: none;
+}
+
+table {
+  padding: 0 5px;
+}

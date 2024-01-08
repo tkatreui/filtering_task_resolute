@@ -1,0 +1,81 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "firstName": "tulsi",
+      "lastName": "katre",
+      "email": "tk@gmaill.com",
+      "dob": "1991-07-31T18:30:00.000Z",
+      "gender": "female",
+      "education": "Graduate",
+      "company": "HP",
+      "designation": "programmer",
+      "experience": 3,
+      "id": "0e43"
+    },
+    {
+      "firstName": "Tony",
+      "lastName": "stark",
+      "email": "stark@gmaill.com",
+      "dob": "1991-08-16T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "Hightech",
+      "designation": "Developer",
+      "experience": 3,
+      "id": "0e44"
+    },
+    {
+      "id": "9794",
+      "firstName": "Kiran",
+      "lastName": "Katre",
+      "email": "kiran@gmail.com",
+      "dob": "1991-06-06T18:30:00.000Z",
+      "gender": "female",
+      "education": "Graduate",
+      "company": "stek",
+      "designation": "Developer",
+      "experience": 7
+    },
+    {
+      "id": "9794",
+      "firstName": "nikunj",
+      "lastName": "kumar",
+      "email": "kumar@gmail.com",
+      "dob": "1991-06-06T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "gavs",
+      "designation": "Senior Developer",
+      "experience": 10
+    },
+    {
+      "id": "9794",
+      "firstName": "prit",
+      "lastName": "kumar",
+      "email": "kumar@gmail.com",
+      "dob": "1991-06-06T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "tavs",
+      "designation": "Senior Developer",
+      "experience": 10
+    }
+  ]
+}
